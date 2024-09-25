@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order Form</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Product Order Form</h1>
+        <form action="https://formsubmit.co/ftsumgo979@gmail.com" method="POST" enctype="multipart/form-data" id="orderForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="number" name="phone no." placeholder="phone no.(Telegram username.)" required>
+            <input type="number" name="product_quantity" placeholder="Number of Products" required min="1">
+            <input type="file" name="product_photo" accept="image/*" required> 
+            
+            <input type="file" name="payment_screenshot" accept="image/*" placeholder="Upload Payment Screenshot (Optional)">
+            <button type="submit">Finish Order</button>
+        </form>
+    </div>
+</body>
+</html>
